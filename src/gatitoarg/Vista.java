@@ -537,7 +537,7 @@ public final class Vista extends javax.swing.JFrame {
         if (lbs[casilla - 1].getText().equals("") && estado) {
             lbs[casilla - 1].setIcon(turno);
             cambiarturno();
-            comprobaruso();
+            
             comprobarganador();
 
         }
@@ -556,67 +556,6 @@ public final class Vista extends javax.swing.JFrame {
 
     }
 
-    public void comprobaruso() {
-        if (lbs[0].getIcon() == (PACMAN)) {
-            estado = false;
-
-        }
-        if (lbs[0].getIcon() == (FANTASMA)) {
-            estado = false;
-
-        }
-        if (lbs[1].getIcon() == (PACMAN)) {
-            estado = false;
-
-        }
-        if (lbs[1].getIcon() == (FANTASMA)) {
-            estado = false;
-
-        }
-        if (lbs[2].getIcon() == (PACMAN)) {
-            estado = false;
-        }
-        if (lbs[2].getIcon() == (FANTASMA)) {
-            estado = false;
-        }
-        if (lbs[3].getIcon() == (PACMAN)) {
-            estado = false;
-        }
-        if (lbs[3].getIcon() == (FANTASMA)) {
-            estado = false;
-        }
-        if (lbs[4].getIcon() == (PACMAN)) {
-            estado = false;
-        }
-        if (lbs[4].getIcon() == (FANTASMA)) {
-            estado = false;
-        }
-        if (lbs[5].getIcon() == (PACMAN)) {
-            estado = false;
-        }
-        if (lbs[5].getIcon() == (FANTASMA)) {
-            estado = false;
-        }
-        if (lbs[6].getIcon() == (PACMAN)) {
-            estado = false;
-        }
-        if (lbs[6].getIcon() == (FANTASMA)) {
-            estado = false;
-        }
-        if (lbs[7].getIcon() == (PACMAN)) {
-            estado = false;
-        }
-        if (lbs[7].getIcon() == (FANTASMA)) {
-            estado = false;
-        }
-        if (lbs[8].getIcon() == (PACMAN)) {
-            estado = false;
-        }
-        if (lbs[8].getIcon() == (FANTASMA)) {
-            estado = false;
-        }
-        estado = true;
-    }
 
     public void comprobarganador() {
 
